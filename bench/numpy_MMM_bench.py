@@ -2,6 +2,7 @@
 This is the Python version of gonum_bench_test.go
 
 Results will depend a lot on which BLAS backend you're using for Numpy (MKL / OpenBLAS / Accelerate etc.)
+To install a given backend, use e.g `mamba install numpy "blas=*=openblas"`
 """
 
 import numpy as np
